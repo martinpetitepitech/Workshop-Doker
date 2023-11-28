@@ -76,7 +76,5 @@
 
 **##### Bon voyage !**
 
-**##### Autres modifications**
-
 * J'ai ajouté des emojis et des titres pour rendre le document plus attrayant et facile à lire.
 * J'ai ajouté des liens vers la documentation officielle
