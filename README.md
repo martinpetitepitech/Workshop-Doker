@@ -1,9 +1,11 @@
-Workshop Docker
-Étape 1: Introduction à Docker
+#Workshop Docker
+
+##Étape 1: Introduction à Docker
 Exercice : Installation de Docker
 
 Installez Docker sur votre machine en suivant les instructions officielles : Guide d'installation Docker
-Étape 2: Concepts de base de Docker
+
+##Étape 2: Concepts de base de Docker
 Commande docker ps
 
 Cette commande liste les conteneurs Docker en cours d'exécution sur votre machine.
@@ -31,24 +33,25 @@ bash
 docker run -d -p 8080:80 --name mon_conteneur mon_image
 
 Options utilisées dans cet exemple :
-
     -d: Lance le conteneur en arrière-plan (détaché).
     -p 8080:80: Mappe le port 8080 de l'hôte au port 80 du conteneur.
     --name mon_conteneur: Donne un nom au conteneur.
     mon_image: Spécifie l'image à utiliser pour le conteneur.
 
-Étape 3: Création d'Images Docker
+##Étape 3: Création d'Images Docker
 
 Créez votre propre image Docker en rédigeant un fichier Dockerfile. Utilisez ce Dockerfile pour construire une image et exécutez un conteneur basé sur cette image.
-Étape 4: Gestion des Volumes
+
+##Étape 4: Gestion des Volumes
 Exercice : Comprendre l'importance des volumes
 
 Créez un conteneur avec un volume, effectuez des modifications dans le volume, et observez comment ces changements persistent.
-Étape 5: Docker Compose pour l'Orchestration
+
+##Étape 5: Docker Compose pour l'Orchestration
 Exercice : Écrire un fichier docker-compose.yml
 
 Définissez et orchestrez un ensemble de services. Exécutez ces services ensemble en utilisant Docker Compose.
-Étape 6: Réseau Docker
+##Étape 6: Réseau Docker
 Exercice : Exploration de la mise en réseau dans Docker
 
 Créez un réseau Docker, attachez des conteneurs à ce réseau, et testez la communication entre les conteneurs.
