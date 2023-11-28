@@ -21,10 +21,6 @@
 * :information_desk_person: Apprenez les concepts de base de Docker, tels que les images, les conteneurs, les ports, etc.
 * :hammer_and_wrench: Utilisez les commandes `docker ps`, `docker images`, et `docker run` pour manipuler des conteneurs Docker.
 
-##### Exercice 1: Installation de Docker
-
-* :computer: Installez Docker sur votre machine en suivant les instructions officielles : [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/): [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/)
-
 ##### Exercice 2: Utilisation des commandes Docker
 
 * :ship: Utilisez les commandes `docker ps`, `docker images`, et `docker run` pour manipuler des conteneurs Docker.
